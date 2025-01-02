@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.icons{
+
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;  /* Adjust size based on your design */
+     /* color: #fff;  Icon text color  */
+     margin-top: 10px;
+     margin-left: 10px;
+} 
+body{
+
+    /* background-image: url(bg.jpeg); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+
+.taskbar{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    background: #f3f3f3;
+    align-items: center;
+    z-index: 110;
+}
+
+.startmenu{
+
+    position: fixed;
+    /* bottom: 50px; */
+    bottom: -755px;
+    /* width: 100%; */
+    text-align: center;
+    width: 100%;        /* Resize image to 80% of its original size */
+    display: block;    /* Make the image a block element */
+    margin: 0 auto;    /* Center the image horizontally */
+    transition: all 0.5s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+.right{
+
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    height: 90%;
+}
